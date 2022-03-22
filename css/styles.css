@@ -392,7 +392,11 @@ flex-direction: column;
     color: white;
 
 }
+::placeholder {
+color: white;
 
+
+}
 .aclaracionDato {
 color: #8A8787;
 
@@ -561,82 +565,3 @@ color: #F0A83E;
 
 }
 
-
-
-///////////////////////
-/* Menos de 700 de ancho cambiar:
-
-headerNaranja nav ul  X Menu hamburguesa
-elementosBanner  X Alinear a la derecha
-
-*/
-
-/* Menos de 468
-headerNegro x desaparece
-
-Section:
-    justify-content: center;
-
-.barraNaranjaSobreFooter a {
-        justify-content: center;
-
-
-barraNaranjaSobreFooter:
-    height: 414px;
-
-
-    Button Suscribirme:
-        width: 100px;
-
-
-
-
-footer 
-    height 326px
-    font-size: 1.5rem;
-    Sacar justify content space between
-    justify-content: space-evenly;
-
-IzquierdaFooter:
-    margin-bottom: 2rem;
-    left: 0px;
-*/
-
-
-
-/* 
-@media (max-width: 1250px) {
-
-    html{
-      font-size: 18px;
-    }
-  
-    section article{
-  
-      width: 35%;
-    }
-  }
-  
-  
-  @media (max-width: 730px) {
-  
-  
-    section article{
-      width: 70%;
-    }
-  
-    section article.harley{
-      display: none;
-    }
-  
-  
-    footer{
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    footer img{
-      margin-top: 10px;
-      position: static;
-    } */
-  
